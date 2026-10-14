@@ -1,0 +1,12 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+*.json.bak
+backups/
+temp/
+datos_prueba/
+EOF
