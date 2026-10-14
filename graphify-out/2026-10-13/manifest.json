@@ -1,0 +1,32 @@
+{
+  "src/js/calculadora.js": {
+    "mtime": 1791832890.9592028,
+    "seen": 1791833188.387331,
+    "ast_hash": "d934ffa79611e45edb91fe08e83d1bbb",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791830211.8784332,
+    "seen": 1791830346.3271797,
+    "ast_hash": "09547b71ee06e154eec85bb1bcc7a565",
+    "semantic_hash": "09547b71ee06e154eec85bb1bcc7a565"
+  },
+  "docs/AGENTS.md": {
+    "mtime": 1791831342.0551844,
+    "seen": 1791832007.4607873,
+    "ast_hash": "aff53a2e98a38e67fb7c6cd5c7435651",
+    "semantic_hash": "aff53a2e98a38e67fb7c6cd5c7435651"
+  },
+  "src/js/app.js": {
+    "mtime": 1791921322.5485442,
+    "seen": 1791921364.9845772,
+    "ast_hash": "98d49b5047b11cb6734d429ea14b5f0a",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791921271.886976,
+    "seen": 1791921364.9845927,
+    "ast_hash": "8d4d09470f2fb7481632791de2ed29ea",
+    "semantic_hash": ""
+  }
+}

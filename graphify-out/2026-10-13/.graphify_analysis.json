@@ -1,0 +1,90 @@
+{
+  "communities": {
+    "0": [
+      "src_js_calculadora",
+      "src_js_calculadora_calculateattendancestats",
+      "src_js_calculadora_calculateweightedfinalgrade",
+      "src_js_calculadora_validateweights"
+    ],
+    "1": [
+      "concept_multiagent_orchestration",
+      "concept_sdd",
+      "readme_teacher_hub"
+    ],
+    "2": [
+      "agent_architect",
+      "docs_agents_specification"
+    ],
+    "3": [
+      "agent_coder",
+      "agent_orchestrator"
+    ],
+    "4": [
+      "agent_qa"
+    ]
+  },
+  "cohesion": {
+    "0": 0.6666666666666666,
+    "1": 0.6666666666666666,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_js_calculadora_validateweights",
+      "label": "validateWeights()",
+      "degree": 2
+    },
+    {
+      "id": "src_js_calculadora_calculateweightedfinalgrade",
+      "label": "calculateWeightedFinalGrade()",
+      "degree": 2
+    },
+    {
+      "id": "readme_teacher_hub",
+      "label": "teacher_hub",
+      "degree": 2
+    },
+    {
+      "id": "docs_agents_specification",
+      "label": "Project Specification",
+      "degree": 1
+    },
+    {
+      "id": "concept_sdd",
+      "label": "Specification-Driven Development",
+      "degree": 1
+    },
+    {
+      "id": "concept_multiagent_orchestration",
+      "label": "Multi-Agent Orchestration",
+      "degree": 1
+    },
+    {
+      "id": "agent_orchestrator",
+      "label": "Orchestrator Agent",
+      "degree": 1
+    },
+    {
+      "id": "agent_architect",
+      "label": "Architect Agent",
+      "degree": 1
+    },
+    {
+      "id": "agent_coder",
+      "label": "Coder Agent",
+      "degree": 1
+    },
+    {
+      "id": "agent_qa",
+      "label": "QA Agent",
+      "degree": 0
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 1660,
+    "output": 2238
+  }
+}

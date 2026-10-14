@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestor Académico</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-marca">
+        <span class="marca-icono" aria-hidden="true">🎓</span>
+        <div>
+          <h1>Gestor Académico</h1>
+          <p class="marca-subtitulo">Cursos · Materias · Alumnos</p>
+        </div>
+      </div>
+
+      <button type="button" id="boton-colapsar" class="boton-colapsar" aria-label="Colapsar barra lateral">
+        <span aria-hidden="true">«</span>
+      </button>
+
+      <nav class="sidebar-nav" aria-label="Navegación principal">
+        <section class="sidebar-seccion">
+          <h2 class="sidebar-titulo">Cursos</h2>
+          <div id="lista-cursos-sidebar" class="sidebar-lista"></div>
+        </section>
+
+        <section class="sidebar-seccion">
+          <h2 class="sidebar-titulo">Lapso activo</h2>
+          <div id="selector-lapso" class="selector-lapso"></div>
+        </section>
+      </nav>
+
+      <div class="sidebar-pie">
+        <section class="sidebar-seccion">
+          <h2 class="sidebar-titulo">Copia de seguridad</h2>
+          <div id="indicador-respaldo" class="indicador-respaldo indicador-guardado">
+            <span class="indicador-punto" aria-hidden="true"></span>
+            <span id="indicador-respaldo-texto" class="indicador-texto">Todo respaldado</span>
+          </div>
+          <button type="button" id="boton-exportar" class="opcion-global" aria-label="Exportar datos">
+            <span aria-hidden="true">💾</span>
+            <span class="opcion-global-texto">Exportar datos</span>
+          </button>
+          <label class="opcion-global opcion-archivo" for="input-importar">
+            <span aria-hidden="true">📂</span>
+            <span class="opcion-global-texto">Importar datos</span>
+          </label>
+          <input type="file" id="input-importar" accept=".json,application/json" hidden />
+        </section>
+
+        <button type="button" id="boton-tema" class="opcion-global" aria-label="Cambiar tema">
+          <span id="icono-tema" aria-hidden="true">🌙</span>
+          <span class="opcion-global-texto">Tema</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="contenido">
+      <nav id="migas" class="migas" aria-label="Navegación"></nav>
+      <section id="aplicacion" class="aplicacion"></section>
+    </main>
+  </div>
+
+  <!-- Librerías para importar/exportar PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+
+  <script type="module" src="src/js/app.js"></script>
+</body>
+</html>
